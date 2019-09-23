@@ -1,5 +1,6 @@
 # Cr8Router
 Php Router for Apache Server for urls without extension and multilingual support (Geolocation)
+It is designed to take control of the routing from Apache Server and implement it by PHP application itself. The main purposes of the router are creating SEO Friendly URLs withour file extension and detect the user's language on first visit to show the website with customers language if available.
 
 Instructions
 1- Copy all files and paste into your Apache server's public_html folder.
