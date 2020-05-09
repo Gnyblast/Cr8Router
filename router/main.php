@@ -32,8 +32,8 @@ class lang_detector {
 	function pclanguage(){
 		$this->pclang = explode(",", $_SERVER["HTTP_ACCEPT_LANGUAGE"]);
 		foreach($this->pclang as $x){
-    		$s = explode(";",$x);
-    		$flang = substr($s[0],0,2);
+    			$s = explode(";",$x);
+    			$flang = substr($s[0],0,2);
 			if(in_array(strtolower($flang),$this->whichlangs())){
 				array_push($this->mainlang, strtolower($flang));
 			} else {
