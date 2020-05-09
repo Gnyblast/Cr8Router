@@ -25,8 +25,9 @@ class lang_detector {
 		$this->ct = curl_init();
         	curl_setopt($this->ct, CURLOPT_URL,"http://seofriendlyurl.com/php/c_to_l.php?ip={$this->ip}");
         	curl_setopt($this->ct, CURLOPT_RETURNTRANSFER, true);
-        	return json_decode(curl_exec($this->ct));
+        	$jsonRespLang = json_decode(curl_exec($this->ct));
         	curl_close($this->ct);
+		return $jsonRespLang;
 	}
 	function pclanguage(){
 		$this->pclang = explode(",", $_SERVER["HTTP_ACCEPT_LANGUAGE"]);
