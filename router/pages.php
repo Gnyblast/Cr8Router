@@ -6,7 +6,7 @@ class pages{
 	function __construct(){
 		
 		//Name of the Domain carefull for the http or https
-		$this->domain = 'http://seofriendlyurl.com';
+		$this->domain = 'http://yourdomain.com';
 		
 		//Define your pages in here for each language
 		$this->load = array(
