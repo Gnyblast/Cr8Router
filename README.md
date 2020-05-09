@@ -1,6 +1,6 @@
 # Cr8Router
 
-Php Router for Apache Server to refractor URLs without extension and multilingual support (Geolocation). It is designed to take control of the routing from Apache Server and implement it by PHP application itself. The main purposes of the router are creating SEO Friendly URLs without file extension and detect the user's language on first visit to show the website with customers language if available.
+PHP Router for Apache Server to refractor URLs without extension and multilingual support (Geolocation). It is designed to take control of the routing from Apache Server and implement it by PHP application itself. The main purposes of the router are creating SEO Friendly URLs without file extension and detect the user's language on first visit to show the website with customers language if available.
 
 
 ## Instructions
