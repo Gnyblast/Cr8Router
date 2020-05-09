@@ -10,7 +10,7 @@ class lang_array{
 		//Set Countries that website will be shown in their own languages
 		$this->otherlang = array('fr','de','it','es','gr','en');
 		
-		//Do not touch to this one
+		//Do not touch to this section
 		$this->alllangs = array();		
 		array_push($this->alllangs,$this->defaultlang);
 		$this->alllangs = array_merge($this->alllangs,$this->otherlang);
