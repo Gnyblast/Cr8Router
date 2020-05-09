@@ -16,3 +16,7 @@ Php Router for Apache Server to refractor URLs without extension and multilingua
 
 Use Views folder for each page of the website and for each language create a folder same with country code and keep the website pages there.
 When you create new page do not forget to add it into `router` > `pages.php`.
+
+Router guesses user language from his/her location + keyboard language and if that language is exist opens the page at first visit with that language. If that language is not exist it will open with default language. If a user changes to another language browser will save it into cookies and show the website in that language even after quiting and returning.
+
+You can check user language from `cookies` named `sitelang`.
